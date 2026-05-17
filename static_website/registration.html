@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 class="heading">
+        Registration Form
+    </h1>
+    <form action="registration.html" method="post">
+        <label for="Name">Full Name :</label><br>
+    <input type="text" placeholder="Enter Your Name" name="name" class="fields"><br>
+    <label for="Email">Email :</label><br>
+    <input type="email" placeholder="Enter Your Email" name="email" class="fields"><br>
+    <label for="password">Password</label><br>
+    <input type="password" placeholder="Enter Your Password" name="password" class="fields"><br>
+    <div class="gender">
+    <label for="Gender">Gender</label><br>
+    Male <input type="radio" name="Gender">
+    Female <input type="radio" name="Gender"><br> <hr>
+    </div>
+
+    <label for="Hobbies">Hobbies :</label><br>
+    <div class="hobbies">
+    <input type="checkbox"> Music <br>
+    <input type="checkbox"> photography <br>
+    <input type="checkbox"> cooking <br>
+    <input type="checkbox"> Writing <br>
+    <input type="checkbox">  Drawing <br>
+    </div>
+
+    <div class="state">
+        <label for="State">State</label>
+    <select name="" id="">
+        <option value="">Select State</option>
+        <option value="">Gujarat</option>
+        <option value="">Maharastra</option>
+        <option value="">chennai</option>
+    </select><br>
+    </div>
+    <label for="Address">Address</label>
+    <textarea name="address" class="fields"></textarea><br>
+
+    <button name="register">Register</button>
+    </form>
+
+
+</body>
+</html>

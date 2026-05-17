@@ -1,0 +1,28 @@
+form{
+    margin-left: 500px;
+    margin-top: -10px;
+    border: 1px solid black;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color:beige;
+    font-size: 25px;
+    
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.fields{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+}
+
+.hobbies{
+    padding: 10px;
+}
