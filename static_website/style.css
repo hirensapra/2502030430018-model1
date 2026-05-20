@@ -75,7 +75,7 @@ label{
 
 .navbar{
 
-    width: 1380px;
+    width: 100%;
     height: 45px;
     background-color: #3DAFBB;
     border: 1px solid black;
@@ -113,7 +113,7 @@ label{
 
 body{
     background: -webkit-linear-gradient(to right, #BDE1CC, #98e8f1);
-background: linear-gradient(to right, #BDE1CC, #98e8f1);
+    background: linear-gradient(to right, #BDE1CC, #98e8f1);
 }
 
 .abc1{
@@ -485,8 +485,131 @@ background: linear-gradient(to right, #BDE1CC, #98e8f1);
     
 }
 
+.uline{
+    background-color: #3DAFBB;
+    height: 3px;
+    width: 120px;
+    position: absolute;
+    left: 635px;
+    top: 80px;
+}
+
 .p-heading{
     position: absolute;
     top: 50px;
     left: 620px;
+}
+
+
+.home-h1{
+    position: absolute;
+    font-size: 60px;
+    left: 500px;
+    top: 190px;
+}
+
+.home-p{
+    position: absolute;
+    left: 620px;
+    top: 290px;
+}
+
+.home-btn{
+    position: absolute;
+    left: 630px;
+    top: 340px;
+    width: 210px;
+    height: 30px;
+    border: 15px;
+    border-radius: 15px;
+    background-color: #3DAFBB;
+    cursor: pointer;
+}
+
+.home-btn:hover{
+    background-color: #d0d5ee;
+    color: #3DAFBB;
+    transition: 0.7s;
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.25), 0 5px rgba(0, 0, 0, 0.22);
+    background: -webkit-linear-gradient(to right, #a7c0ed, #5a85c2);
+    background: -webkit-linear-gradient(to right, #a7c0ed, #5a85c2);
+}
+
+.service1{
+    position: absolute;
+    width: 300px;
+    height: 93px;
+    border: 15px;
+    border-radius: 15px;
+    background-color:#c7f9ff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    left: 290px;
+    top: 190px;
+} 
+
+.service1 h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.service1 p{
+    text-align: center;
+} 
+
+.service2{
+    position: absolute;
+    width: 300px;
+    height: 93px;
+    border: 15px;
+    border-radius: 15px;
+    background-color:#c7f9ff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    left: 620px;
+    top: 190px;
+} 
+
+.service2 h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.service2 p{
+    text-align: center;
+}
+
+
+.service3{
+    position: absolute;
+    width: 300px;
+    height: 93px;
+    border: 15px;
+    border-radius: 15px;
+    background-color:#c7f9ff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    left: 950px;
+    top: 190px;
+} 
+
+.service3 h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.service3 p{
+    text-align: center;
+}
+
+.uline1{
+    position: absolute;
+    left: 670px;
+    top: 80px;
+}
+
+.headingunderline{
+    background-color: #3DAFBB;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 140px;
+    left: 695px;
 }
