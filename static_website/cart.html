@@ -3,19 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Your Cart</title>
 </head>
 <body>
-    <!-- Navbar Loads Here -->
     <div id="navbar"></div>
+    <h1 class="heading" style="text-align: center;">Your Shopping Cart</h1>
 
-    
-
-    <h1>
-        it's cart page
-    </h1>
+    <div id="cart-content" style="max-width: 800px; margin: 0 auto; padding: 20px;">
+        <table border="1" id="cart-table" style="width: 100%; text-align: left; border-collapse: collapse; margin-bottom: 20px;">
+            <thead>
+                <tr style="background-color: #f2f2f2;">
+                    <th style="padding: 10px; width: 80px; text-align: center;">Image</th>
+                    <th style="padding: 10px;">Product</th>
+                    <th style="padding: 10px;">Price</th>
+                    <th style="padding: 10px; text-align: center;">Quantity</th>
+                    <th style="padding: 10px; text-align: center;">Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                </tbody>
+        </table>
+        
+        <h3>Grand Total: $<span id="cart-total">0</span></h3>
+        <br>
+        <button id="clear-cart" style="padding: 10px 20px; cursor: pointer;">Clear Whole Cart</button>
+        <br><br>
+        <a href="product.html">← Back to Products</a>
+    </div>
 
     <script src="script.js"></script>
 </body>
