@@ -161,18 +161,21 @@ body{
     text-align: center;
     right: 160px;
     left: 100px;
-    top: 150px;
+    top: 134px;
 }
 
 .box button{
     position: absolute;
     width: 130px;
+    padding: 5px;
     right: 160px;
     left: 58px;
     top: 210px;
+    border: none;
     border-radius: 15px;
     background-color: #3DAFBB;
 }
+
 
 .box button:hover{
     font-size: 15px;
@@ -216,16 +219,18 @@ body{
     position: absolute;
     left: 100px;
     right: 160px;
-    top: 150px;
+    top: 135px;
 }
 
 .box1 button{
     position: absolute;
+    padding: 5px;
     width: 130px;
     right: 160px;
     left: 58px;
     top: 210px;
     border-radius: 15px;
+    border: none;
     background-color: #3DAFBB;
 }
 
@@ -273,16 +278,18 @@ body{
     text-align: center;
     right: 160px;
     left: 100px;
-    top: 150px;
+    top: 135px;
 }
 
 .box2 button{
     position: absolute;
+    padding: 5px;
     width: 130px;
     right: 160px;
     left: 58px;
     top: 210px;
     border-radius: 15px;
+    border: none;
     background-color: #3DAFBB;
 }
 
@@ -330,16 +337,18 @@ body{
     text-align: center;
     right: 160px;
     left: 100px;
-    top: 150px;
+    top: 135px;
 }
 
 .box3 button{
     position: absolute;
+    padding: 5px;
     width: 130px;
     right: 160px;
     left: 58px;
     top: 210px;
     border-radius: 15px;
+    border: none;
     background-color: #3DAFBB;
 }
 
@@ -385,16 +394,18 @@ body{
     position: absolute;
     left: 100px;
     right: 160px;
-    top: 150px;
+    top: 135px;
 }
 
 .box4 button{
     position: absolute;
     width: 130px;
+    padding: 5px;
     right: 160px;
     left: 58px;
     top: 210px;
     border-radius: 15px;
+    border: none;
     background-color: #3DAFBB;
 }
 
@@ -442,15 +453,17 @@ body{
     text-align: center;
     right: 160px;
     left: 100px;
-    top: 150px;
+    top: 135px;
 }
 
 .box5 button{
     position: absolute;
+    padding: 5px;
     width: 130px;
     right: 160px;
     left: 58px;
     top: 210px;
+    border: none;
     border-radius: 15px;
     background-color: #3DAFBB;
 }
