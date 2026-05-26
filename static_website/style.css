@@ -493,8 +493,8 @@ body{
 
 .a-heading{
     position: absolute;
-    top: 20px;
-    left: 620px;
+    top: 200px;
+    left: 550px;
     
 }
 
@@ -509,27 +509,27 @@ body{
 
 .p-heading{
     position: absolute;
-    top: 50px;
-    left: 620px;
+    top: 240px;
+    left: 550px;
 }
 
 
 .home-h1{
     position: absolute;
     font-size: 60px;
-    left: 500px;
+    left: 450px;
     top: 190px;
 }
 
 .home-p{
     position: absolute;
-    left: 620px;
+    left: 560px;
     top: 290px;
 }
 
 .home-btn{
     position: absolute;
-    left: 630px;
+    left: 580px;
     top: 340px;
     width: 210px;
     height: 30px;
@@ -556,7 +556,7 @@ body{
     border-radius: 15px;
     background-color:#c7f9ff;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-    left: 290px;
+    left: 210px;
     top: 190px;
 } 
 
@@ -577,7 +577,7 @@ body{
     border-radius: 15px;
     background-color:#c7f9ff;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-    left: 620px;
+    left: 530px;
     top: 190px;
 } 
 
@@ -599,7 +599,7 @@ body{
     border-radius: 15px;
     background-color:#c7f9ff;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-    left: 950px;
+    left: 850px;
     top: 190px;
 } 
 
@@ -614,7 +614,7 @@ body{
 
 .uline1{
     position: absolute;
-    left: 670px;
+    left: 570px;
     top: 80px;
 }
 
@@ -624,5 +624,5 @@ body{
     width: 130px;
     position: absolute;
     top: 140px;
-    left: 695px;
+    left: 595px;
 }
